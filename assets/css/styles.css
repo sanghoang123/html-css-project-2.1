@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background: #e5e5e5;
+}
+
+/* Common */
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    padding: 0 16px;
+    line-height: 68px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 14px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.heading {
+    font-weight: 700;
+    color: #0d1111;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
