@@ -330,3 +330,143 @@ a {
     line-height: 1.69;
     color: #9da6a5;
 }
+
+/* Courses */
+.courses {
+    margin-top: 65px;
+    padding-top: 65px;
+}
+
+.courses .text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.courses .heading {
+    line-height: 1.5;
+    margin-top: 18px;
+}
+
+.courses .desc-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .desc {
+    width: 525px;
+    margin-top: 19px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767e7e;
+}
+
+.courses .view-link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: var(--primary-color);
+}
+.courses .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px;
+    margin-top: 79px;
+}
+
+.courses .item {
+    position: relative;
+    width: calc(33.3% - 31.333px);
+}
+
+.courses .item:hover img {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.2, 1.2);
+}
+
+.courses .item .img {
+    display: block;
+    width: 359px;
+    height: 393px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.courses .item img {
+    width: 100%;
+    height: 100%;
+    background: #d0efed;
+    opacity: 0.5;
+    border-radius: 8px;
+    object-fit: cover;
+    transform: scale(1, 1);
+    transition: all 0.5s ease-in-out;
+}
+
+.course-summary {
+    position: absolute;
+    left: 17px;
+    bottom: -124px;
+    width: 325px;
+    height: 195px;
+    padding: 18px 35px 29px 25px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.course-summary .title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.course-summary .price {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.course-summary .price strong {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.course-summary .field {
+    margin-top: 6px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+}
+
+.course-summary .training {
+    margin-top: 18px;
+    display: flex;
+    gap: 0 16px;
+}
+
+.course-summary .training p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    color: #9da6a5;
+}
+
+.course-summary .training p::before {
+    display: inline-block;
+    margin-right: 10px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #1ebfc1;
+    border-radius: 50%;
+}
