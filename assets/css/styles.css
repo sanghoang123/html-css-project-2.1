@@ -470,3 +470,154 @@ a {
     background: #1ebfc1;
     border-radius: 50%;
 }
+
+/* Summary */
+.summary {
+    width: 862px;
+    height: 191px;
+    margin: 200px auto 0;
+    padding-top: 65px;
+}
+
+.summary .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary .item {
+    text-align: center;
+}
+
+.summary .quantity {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.summary .desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+/* Testimonial */
+.testimonial {
+    margin-top: 200px;
+    padding-top: 64px;
+}
+
+.testimonial .testimonial-overflow {
+    overflow-x: hidden;
+}
+
+.testimonial .body {
+    display: flex;
+    gap: 0 72px;
+    align-items: center;
+}
+
+.testimonial .content {
+    flex-shrink: 0;
+}
+
+.testimonial .quotes-icon {
+    margin-top: 37px;
+}
+
+.testimonial .content .text {
+    margin-top: 27px;
+    width: 419px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.testimonial .content .speaker {
+    margin-top: 33px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.testimonial .speaker strong {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #070707;
+}
+
+.testimonial .cta-group {
+    margin: 52px 0 37px;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.testimonial .testimonial-btn {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.testimonial .avatars {
+    width: 679px;
+    position: relative;
+    height: 481px;
+    flex-shrink: 0;
+}
+
+.testimonial .avatars .item {
+    position: absolute;
+    --avatar-bg-color: var(--primary-color);
+}
+
+.testimonial .avatars img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--avatar-bg-color);
+}
+
+.testimonial .avatars .item:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 144px;
+}
+
+.testimonial .avatars .item:nth-child(2) {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+.testimonial .avatars .item:nth-child(3) {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+}
+
+.testimonial .avatars .item:nth-child(4) {
+    position: absolute;
+    left: 212px;
+    bottom: 0;
+}
+
+.testimonial .avatars .item:nth-child(5) {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+}
+
+.testimonial .avatars .item:nth-child(6) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
