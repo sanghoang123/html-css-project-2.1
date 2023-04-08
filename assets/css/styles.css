@@ -110,10 +110,15 @@ a {
     border: 1px solid #1ebfc1;
     border-radius: 6px;
     font-size: 1.6rem;
-    background: transparent;
+    background: #fff;
     color: var(--primary-color);
     margin-left: 24px;
     border-radius: 6px;
+}
+
+.header .sign-up-btn:hover {
+    color: #fff;
+    background-color: var(--primary-color);
 }
 
 .header .action .link {
@@ -624,6 +629,7 @@ a {
 
 /* CTA */
 .cta {
+    margin-top: 130px;
     padding: 76px 0 78px;
     background: #def6f5;
 }
@@ -647,4 +653,87 @@ a {
 
 .cta .cta-btn {
     margin-left: 410px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 131px 0 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #2e2e2e;
+}
+
+.footer .list {
+    margin-top: 25px;
+}
+
+.footer .item {
+    margin-top: 20px;
+}
+
+.footer .item .link {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #535353;
+}
+
+.footer .item .link:hover,
+.footer .social-link:hover {
+    opacity: 0.9;
+}
+
+.footer .social-link {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-list {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.footer .social-list .item {
+    margin-top: 0;
+}
+
+.footer .social-link {
+    display: flex;
+    column-gap: 9px;
+}
+
+.footer .social-link .icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+}
+
+.footer .social-link .name {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #535353;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer .copyright p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #b0b5b4;
 }
