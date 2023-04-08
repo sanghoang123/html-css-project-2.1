@@ -621,3 +621,30 @@ a {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* CTA */
+.cta {
+    padding: 76px 0 78px;
+    background: #def6f5;
+}
+
+.cta .body {
+    display: flex;
+    align-items: center;
+}
+
+.cta .heading {
+    line-height: 1.5;
+    color: #070707;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.cta .cta-btn {
+    margin-left: 410px;
+}
